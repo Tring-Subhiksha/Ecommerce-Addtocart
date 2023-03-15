@@ -11,28 +11,7 @@ const App=()=> {
 
   const [cart,setCart]=useState([]);
   const [search,setSearch]=useState([])
-  const[count,setCount]=useState(0)
   const [click,setClick]=useState(0)
-
-  // const handleClick=(item)=>{
-  //   let additem=false
-  //   cart.forEach((product)=>{
-  //     if(item.id==product.id){
-      
-  //     additem=true
-  //     cart.splice(cart.findIndex((item)=>item.id==product.id),1);
-  //     }
-  //   })
-  //   if(additem){
-  //   alert("Remove the Item from your cart")   
-  //   setCount(count-1)
-  //   }
-  //   else
-    
-  //     setCart([...cart,item]);
-  //     setCount(count+1)
-  
-  // }
    const Product=()=>{
     setSearch(list.filter(item=>{
       return item

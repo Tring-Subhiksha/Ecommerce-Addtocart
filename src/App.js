@@ -60,10 +60,10 @@ const App=()=> {
  
   
   <div className="nav-search">
-  <button className="navsearch2" onClick={Product}>Product</button>
-  <button className="navsearch2" onClick={lenovo}>Lenovo</button>
-   <button className="navsearch2" onClick={asus}>Asus</button>
-  <button className="navsearch2" onClick={hp}>Hp</button>
+   <Link to='/'><button className="navsearch2" onClick={Product}>Product</button></Link>
+   <Link to='/'><button className="navsearch2" onClick={lenovo}>Lenovo</button></Link>
+   <Link to='/'><button className="navsearch2" onClick={asus}>Asus</button></Link>
+   <Link to='/'><button className="navsearch2" onClick={hp}>Hp</button></Link>
    <Routes>
    <Route path="/cart" element={<Cart cart={cart} setCart={setCart} handleChange={handleChange}/>}/>
    <Route exact path="/" element={<Amazon className="nav-search3" data={search} click={click} cart={cart} setCart={setCart}/>}/>

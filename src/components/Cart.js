@@ -13,7 +13,7 @@ const Cart = ({cart,setCart,handleChange}) => {
   return (
     <article>
         {
-            cart?.map((item)=>(
+            cart.map((item)=>(
                 <div className='cart-box' key={item.id}>
                  <div className='cart-img'>
                     <img src={item.image}/>

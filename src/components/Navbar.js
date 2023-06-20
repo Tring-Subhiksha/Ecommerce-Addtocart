@@ -12,7 +12,7 @@ const Navbar = ({size}) => {
       <nav>
         <div className='navbox'>
             <span className='myshop'>
-                SoftQue Laptop
+                SoftQue Laptops
             </span>
             <div className='cart'>
                 <span>
